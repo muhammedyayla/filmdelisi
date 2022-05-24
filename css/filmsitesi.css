@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }       
+  .topnav { /* direk navbarın taslağı */
+    overflow: hidden;
+    background-color: rgb(27, 25, 25);
+   
+     
+  }       
+  .topnav a { /* navbar özellikleri */ 
+    float: left; /* sağa yatık */
+    display: block; /*kutu şeklinde alan kaplaması */
+    color: white; /* üstüne gelmeden görünen yazı */
+    text-align: left; /* yazının kutunun içine soldan olması */
+    padding: 14px 16px; /* kutun kapladığı alan*/
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {/* yazının üstüne gelindiğindeki arkaplan rengi ve yazının rengi değişmesi */         
+    color: yellow;
+  }       
+  .topnav a.active { /*navbarın en solundaki kutunun özellikleri*/         
+    color: white;
+  }      
+  .topnav input[type=text] {/* navbarın sağındaki search box özellikleri */
+    float: left;
+    
+    padding: 6px 20px;
+    margin-top: 8px; /* search boxın üstten alınan kesiti */
+    margin-left: 8px; /*search boxın sağından alınan kesiti */
+    border: none; /* search boxın dışındaki kaplama değişimi */
+    font-size: 17px;
+    background-color: rgb(66, 62, 62);
+  }    
+  
+  @media screen and (max-width: 600px) { /* bunu anlamadım ve bulamadım! */
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }         
+    .topnav input[type=text] {
+      border: 1px solid white;    
+    }
+  }
+  .navbar {
+overflow: hidden;
+background-color: rgb(27, 25, 25);
+
+}
+
+.navbar a {
+background-color: rgb(27, 25, 25);
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 10px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+color: yellow;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+text-shadow: 0px 8px 16px 0px yellow;
+z-index: 1;
+
+}
+
+.dropdown-content a {
+float: none;
+color: rgb(255, 255, 255);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: large;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
