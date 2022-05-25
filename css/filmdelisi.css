@@ -6,8 +6,6 @@ body {
   .topnav { /* direk navbarın taslağı */
     overflow: hidden;
     background-color: rgb(27, 25, 25);
-   
-     
   }       
   .topnav a { /* navbar özellikleri */ 
     float: left; /* sağa yatık */
@@ -37,7 +35,7 @@ body {
 
   @media screen and (max-width: 600px) { /* bunu anlamadım ve bulamadım! */
     .topnav a, .topnav input[type=text] {
-      float: none;
+      float: left;
       display: block;
       text-align: left;
       width: 100%;
