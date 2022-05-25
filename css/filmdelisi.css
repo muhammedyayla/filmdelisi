@@ -49,7 +49,6 @@ body {
   .navbar {
 overflow: hidden;
 background-color: rgb(27, 25, 25);
-
 }
 
 .navbar a {
@@ -64,7 +63,7 @@ text-decoration: none;
 
 .dropdown {
 float: left;
-overflow: hidden;
+overflow:hidden;
 }
 
 .dropdown .dropbtn {
@@ -137,6 +136,7 @@ img {
   padding: 16px;
   margin-top: -50px;
   color: white;
+  background-color: #000;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -150,6 +150,7 @@ img {
   right: 0;
   border-radius: 3px 0 0 3px;
   transition: 1.5s;
+  background-color: #000;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -196,3 +197,21 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+/* Footer */
+.footer{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Avenir Roman", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  padding: 10px 0;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
