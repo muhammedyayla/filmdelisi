@@ -1,10 +1,11 @@
-html {
+ html {
 background: url(../img/1920X1080\ background.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
+
 .topnav {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0);
@@ -67,5 +68,54 @@ background-size: cover;
     min-height: 130px;
     text-align: center;
   }
-
+  .search-bar{
+    width: 100%;
+    max-width: 512px;
+    background-color: rgba(255, 255, 255, 0.007);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+  }
+  .container{
+    width: 100%;
+    min-height: 600px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.search-bar{
+    width: 100%;
+    max-width: 512px;
+    background: rgb(255, 255, 255,0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    width: 100%;
+    max-width: 512px;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: #f16464 ;
+}
+::placeholder{
+    color: #f16464;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: #ec5454 ;
+}
 
