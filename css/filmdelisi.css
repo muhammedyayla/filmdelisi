@@ -11,7 +11,6 @@ background-size: cover;
     background-color: rgba(51, 51, 51, 0);
 }
 .topnav a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -34,9 +33,10 @@ background-size: cover;
     float: right;
     background-color: rgba(51, 51, 51, 0);
 }
-.navbar-center {
+.navbar-center{
     text-align: center;
-    background-color: rgba(51, 51, 51, 0.13);
+    
+    background-color: rgba(51, 51, 51, 0);
 
 }
 
@@ -118,4 +118,29 @@ background-size: cover;
     cursor: pointer;
     background: #ec5454 ;
 }
-
+.dfxc{
+  width: 100%;
+  min-height: 1540px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.post-thumbnail img{
+  width: 10%;
+  min-height: 60px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-thumbnail{
+  width: 100%;
+  min-height: 60px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
