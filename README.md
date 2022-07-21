@@ -1,4 +1,4 @@
-git# Deneme
+# Deneme
 
 # Alt Bilgi
 mzsbvjözck
