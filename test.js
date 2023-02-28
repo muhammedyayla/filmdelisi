@@ -1,2 +1,0 @@
-eaia
-eiaieaeiaü
