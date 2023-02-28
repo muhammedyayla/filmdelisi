@@ -1,4 +1,0 @@
-# Deneme
-
-# Alt Bilgi
-mzsbvjözck
